@@ -30,14 +30,16 @@
     tmux
     tree
     unzip
-    vim
+    neovim
     wget
     zip
   ];
 
   stable-packages = with pkgs; [
     # FIXME: customize these stable packages to your liking for the languages that you use
-
+    #xtra
+    cifs-utils
+    
     # key tools
     gnumake # for lunarvim
     gcc # for lunarvim
