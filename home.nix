@@ -23,7 +23,6 @@
     jq
     killall
     mosh
-    neovim
     procs
     ripgrep
     sd
